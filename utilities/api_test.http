@@ -1,0 +1,59 @@
+@hostname=http://localhost:5000
+
+# create user
+POST {{hostname}}/api/users
+
+{
+    "email":"j@j.com",
+    "password":"password",
+    "role":"user"
+}
+
+###
+
+# read users
+
+GET {{hostname}}/api/users
+
+###
+
+#read single user
+
+GET {{hostname}}/api/users/1
+
+###
+
+# delete user
+
+DELETE {{hostname}}/api/users/1
+
+###
+
+POST {{hostname}}/api/posts
+
+{
+    "title":"",
+    "content":"",
+    "published":false,
+    "authorId":1
+}
+
+###
+
+# read users
+
+GET {{hostname}}/api/posts
+
+###
+
+#read single user
+
+GET {{hostname}}/api/posts/1
+
+###
+
+# delete user
+
+DELETE {{hostname}}/api/posts/1
+
+###

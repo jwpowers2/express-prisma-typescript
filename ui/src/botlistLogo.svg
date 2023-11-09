@@ -1,0 +1,14 @@
+<svg id="svglogo" height="70" width="70">
+<polygon points="10,0 60,0 60,40 10,40 10,0" style="fill: #e65c00; stroke: white; stroke-width: 5;"/>
+<polygon points="10,40 60,40 60,50 10,50" style="fill: #e65c00; stroke: white; stroke-width: 5;"> </polygon>
+<circle cx="30" cy="10" r="5" style="fill: white; stroke: black; stroke-width: 2;"/>
+<circle cx="30" cy="10" r="2" style="fill: black;"/>
+<circle cx="40" cy="10" r="5" style="fill: white; stroke: black; stroke-width: 2;"/>
+<circle cx="40" cy="10" r="2" style="fill: black;"/>
+<circle cx="30" cy="20" r="5" style="fill: white; stroke: black; stroke-width: 2;"/>
+<circle cx="30" cy="20" r="2" style="fill: black;"/>
+<circle cx="40" cy="20" r="5" style="fill: white; stroke: black; stroke-width: 2;"/>
+<circle cx="40" cy="20" r="2" style="fill: black;"/>
+<polygon points="45,40 50,30 55,40" style="fill: white;"/>
+<polygon points="15,40 20,30 25,40" style="fill: white;"/>
+</svg>
